@@ -1,0 +1,45 @@
+/* index.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+#root {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  margin: 0 20px 0 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #0a0a0a;
+}
+
+.story-image {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+}
+
+@font-face {
+  font-family: "WarhavenB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/WarhavenB.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
